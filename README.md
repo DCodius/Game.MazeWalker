@@ -1,7 +1,12 @@
 ## About
 
 Finnaly I have started my journey in <strong>Game Development</strong>.<break>
-After weeks comparing various game engines and lurking on streamers & youtubers, my love is fallin into [website]:https://godotengine.org/ with C# script.
+After weeks comparing various game engines and lurking on streamers & youtubers, my love is fallin into [Godot 4.2](https://godotengine.org/ "Free & Opensource Game Engine") with C# script.
+
+## What I have learn 
+- **Game Engine** : Why Godot ? Well it's Open Source & 100% FREE, this is so far most newbie friendly with intuitive  ui workflow. And after Unity decided to changes their Pricing License,  Godot is the best option for Indie GameDev for sure !
+- **Sprite/Pixel Art Tool** : Its lot of tools for Sprite Image Editor out there, but i think [aseprite](https://www.aseprite.org/). It's simple yet equiped with various Plugins.
+- **Animation** : Use AnimationPlayer with Spreadsheet (.png) containing all animation frames 
 
 ## Game Overview
 
@@ -28,9 +33,10 @@ After weeks comparing various game engines and lurking on streamers & youtubers,
 - **Interactions:** The ways the player can interact with the game world and its elements, such as movement, combat, dialogue, crafting, etc.
 
 ## Learning Source
-- [Youtube](https://youtu.be/S8lMTwSRoRg?si=TlaZsRICYSjpJ4-P , "Godot Game Development – Crash Course for Beginners")
-- [Youtube](https://www.youtube.com/watch?v=iBLJ89ZwXys , "How To Make A Character MOVE in Godot (C# Tutorial)")
-- [Youtube](https://www.youtube.com/watch?v=fVkA1AHd37M&t=1142s , "Use C# with Godot to make Games! | .NET Conf 2023")
+- [Youtube](https://youtu.be/S8lMTwSRoRg?si=TlaZsRICYSjpJ4-P "Godot Game Development – Crash Course for Beginners")
+- [Youtube](https://www.youtube.com/watch?v=iBLJ89ZwXys "How To Make A Character MOVE in Godot (C# Tutorial)")
+- [Youtube](https://www.youtube.com/watch?v=fVkA1AHd37M&t=1142s "Use C# with Godot to make Games! | .NET Conf 2023")
+- [Youtube](https://www.youtube.com/watch?v=FEwE6myyz_I "How to animate Sprite Sheets in Godot using AnimationPlayer (beginner tutorial)")
 
 
 ## Game Resources
