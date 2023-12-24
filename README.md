@@ -40,4 +40,4 @@ After weeks comparing various game engines and lurking on streamers & youtubers,
 
 
 ## Game Resources
-- [Coins & Gems & Chests & More] (https://greatdocbrown.itch.io/coins-gems-etc "Created by greatdocbrown")
+- [Coins & Gems & Chests & More by greatdocbrown](https://greatdocbrown.itch.io/coins-gems-etc "Created by greatdocbrown")
