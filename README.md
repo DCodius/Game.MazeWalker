@@ -33,10 +33,10 @@ After weeks comparing various game engines and lurking on streamers & youtubers,
 - **Interactions:** The ways the player can interact with the game world and its elements, such as movement, combat, dialogue, crafting, etc.
 
 ## Learning Source
-- [Youtube](https://youtu.be/S8lMTwSRoRg?si=TlaZsRICYSjpJ4-P "Godot Game Development – Crash Course for Beginners")
-- [Youtube](https://www.youtube.com/watch?v=iBLJ89ZwXys "How To Make A Character MOVE in Godot (C# Tutorial)")
-- [Youtube](https://www.youtube.com/watch?v=fVkA1AHd37M&t=1142s "Use C# with Godot to make Games! | .NET Conf 2023")
-- [Youtube](https://www.youtube.com/watch?v=FEwE6myyz_I "How to animate Sprite Sheets in Godot using AnimationPlayer (beginner tutorial)")
+- [Youtube - Godot Game Development – Crash Course for Beginners ](https://youtu.be/S8lMTwSRoRg?si=TlaZsRICYSjpJ4-P "Godot Game Development – Crash Course for Beginners")
+- [Youtube - How To Make A Character MOVE in Godot (C# Tutorial)](https://www.youtube.com/watch?v=iBLJ89ZwXys "How To Make A Character MOVE in Godot (C# Tutorial)")
+- [Youtube - Use C# with Godot to make Games! | .NET Conf 2023](https://www.youtube.com/watch?v=fVkA1AHd37M&t=1142s "Use C# with Godot to make Games! | .NET Conf 2023")
+- [Youtube - How to animate Sprite Sheets in Godot using AnimationPlayer (beginner tutorial)](https://www.youtube.com/watch?v=FEwE6myyz_I "How to animate Sprite Sheets in Godot using AnimationPlayer (beginner tutorial)")
 
 
 ## Game Resources
