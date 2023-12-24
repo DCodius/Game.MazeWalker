@@ -6,7 +6,7 @@ C# is rich with mature framework,pattern and lib packages, so why not implementi
 
 ## What I have learn 
 - **Game Engine** : Why Godot ? Well it's Open Source & 100% FREE, this is so far <strong>"The Most Newbie Friendly"</strong> with intuitive  ui workflow. And after Unity decided to changes their Pricing License,  Godot is the best option for Indie GameDev for sure !
-- **Sprite/Pixel Art Tool** : Its lot of tools for Sprite Image Editor out there, but i think [aseprite](https://www.aseprite.org/). It's simple yet equiped with various Plugins.
+- **Sprite/Pixel Art Tool** : Its lot of tools for Sprite Image Editor out there, but i think [aseprite](https://www.aseprite.org/). It's simple yet powerfully equiped with various Plugins.
 - **Animation** : Use AnimationPlayer with Spreadsheet (.png) containing all animation frames 
 
 ## Game Overview

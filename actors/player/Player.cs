@@ -1,7 +1,7 @@
 using Godot;
 using System;
 
-public partial class Player : PlayerController
+public partial class Player : ActorController
 {
 	[Export]
 	public  float Speed = 300.0f;
