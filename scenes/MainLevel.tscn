@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://2f0014s8vgan"]
+
+[node name="MainLevel" type="Node2D"]
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+offset_left = 30.0
+offset_top = 19.0
+offset_right = 164.0
+offset_bottom = 59.0
+
+[node name="Label" type="Label" parent="HBoxContainer"]
+custom_minimum_size = Vector2(50, 0)
+layout_mode = 2
+text = "POINT"
+
+[node name="Label2" type="Label" parent="HBoxContainer"]
+custom_minimum_size = Vector2(50, 0)
+layout_mode = 2
+text = "OBJECTIVE"

@@ -1,0 +1,68 @@
+[gd_scene load_steps=6 format=3 uid="uid://ddpvfj6xmnb7f"]
+
+[ext_resource type="Script" path="res://menus/MainMenu.cs" id="1_ebdic"]
+
+[sub_resource type="Theme" id="Theme_12la8"]
+
+[sub_resource type="Theme" id="Theme_ir2mt"]
+
+[sub_resource type="FontVariation" id="FontVariation_2rksq"]
+
+[sub_resource type="Theme" id="Theme_345o0"]
+default_font = SubResource("FontVariation_2rksq")
+default_font_size = 12
+
+[node name="Menu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+script = ExtResource("1_ebdic")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = SubResource("Theme_12la8")
+color = Color(0.580392, 0.580392, 0.580392, 1)
+
+[node name="MarginContainer" type="MarginContainer" parent="ColorRect"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = SubResource("Theme_ir2mt")
+theme_override_constants/margin_left = 10
+theme_override_constants/margin_top = 10
+theme_override_constants/margin_right = 10
+theme_override_constants/margin_bottom = 10
+
+[node name="PanelContainer" type="PanelContainer" parent="ColorRect/MarginContainer"]
+layout_mode = 2
+theme = SubResource("Theme_345o0")
+
+[node name="CenterContainer" type="CenterContainer" parent="ColorRect/MarginContainer/PanelContainer"]
+layout_mode = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="ColorRect/MarginContainer/PanelContainer/CenterContainer"]
+layout_mode = 2
+
+[node name="StartButton" type="Button" parent="ColorRect/MarginContainer/PanelContainer/CenterContainer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 57)
+layout_mode = 2
+text = "START"
+
+[node name="ExitButton" type="Button" parent="ColorRect/MarginContainer/PanelContainer/CenterContainer/VBoxContainer"]
+custom_minimum_size = Vector2(300, 57)
+layout_mode = 2
+text = "EXIT"
+
+[connection signal="pressed" from="ColorRect/MarginContainer/PanelContainer/CenterContainer/VBoxContainer/StartButton" to="." method="OnButtonPressed"]

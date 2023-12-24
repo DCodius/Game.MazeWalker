@@ -1,0 +1,40 @@
+[gd_scene load_steps=4 format=3 uid="uid://cpnke7nq6oy0g"]
+
+[ext_resource type="PackedScene" uid="uid://cc446wsbiy4et" path="res://actors/player/Player.tscn" id="1_uk16o"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_jy2dl"]
+size = Vector2(397, 72)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_g2odx"]
+size = Vector2(397, 72)
+
+[node name="Level1" type="Node2D"]
+
+[node name="Player" parent="." instance=ExtResource("1_uk16o")]
+position = Vector2(128, 63)
+
+[node name="TileMap" type="TileMap" parent="."]
+format = 2
+
+[node name="Label" type="Label" parent="TileMap"]
+offset_left = 342.0
+offset_top = 5.0
+offset_right = 687.0
+offset_bottom = 96.0
+text = "LEVEL !"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(300, 484)
+shape = SubResource("RectangleShape2D_jy2dl")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(605, 572)
+shape = SubResource("RectangleShape2D_g2odx")
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(914, 489)
+shape = SubResource("RectangleShape2D_g2odx")
