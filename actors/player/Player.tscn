@@ -136,7 +136,6 @@ shape = SubResource("CapsuleShape2D_qoly2")
 
 [node name="Camera2D" type="Camera2D" parent="."]
 visible = false
-zoom = Vector2(1.6, 1.6)
 
 [node name="Idle" type="Sprite2D" parent="."]
 visible = false

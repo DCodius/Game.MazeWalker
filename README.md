@@ -2,6 +2,7 @@
 
 Finnaly I have started my journey in <strong>Game Development</strong>.<break>
 After weeks comparing various game engines and lurking on streamers & youtubers, my love is fallin into [Godot 4.2](https://godotengine.org/ "Free & Opensource Game Engine") with C# script.
+C# is rich with mature framework,pattern and lib packages, so why not implementing those in this one.
 
 ## What I have learn 
 - **Game Engine** : Why Godot ? Well it's Open Source & 100% FREE, this is so far <strong>"The Most Newbie Friendly"</strong> with intuitive  ui workflow. And after Unity decided to changes their Pricing License,  Godot is the best option for Indie GameDev for sure !
@@ -41,3 +42,6 @@ After weeks comparing various game engines and lurking on streamers & youtubers,
 
 ## Game Resources
 - [Coins & Gems & Chests & More by greatdocbrown](https://greatdocbrown.itch.io/coins-gems-etc "Created by greatdocbrown")
+
+## Nuget Packages
+- [MVVM Toolkit](https://www.nuget.org/packages/CommunityToolkit.Mvvm) use for Event Driven Pattern implementation
