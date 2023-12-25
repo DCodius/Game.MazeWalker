@@ -13,27 +13,55 @@ public partial class ActorAnimation : Node2D
 	[Export]
 	public float DefaultTransisitonTime = 0.1f;
 	ActorController controller;
-	protected void Animate<T>(T animationState, float transisitonTime)
+	protected void AnimateActor<T>(T animationState, float transisitonTime)
 	{
 		PlayerAnimator.Play(animationState.ToString(), customBlend: transisitonTime);
 	}
-	protected void OnPlayerVelocityChhanged(Vector2 velocity)
+
+	protected void SetMovementForAnimation(Vector2 velocity,bool isOnFLoor)
 	{
 		var nextState = PlayerState.Idle;
-		if (Mathf.Abs(velocity.X) > 0)
+		if (!isOnFLoor)
 		{
-			nextState = PlayerState.Walk;
+			nextState = (velocity.Y < 0) ? PlayerState.Jump : PlayerState.Idle;
 		}
-		Animate(nextState, DefaultTransisitonTime);
+		else
+		{
+			if (Mathf.Abs(velocity.X) > 0)
+			{
+				nextState = PlayerState.Run;
+			}
+		}
+		AnimateActor(nextState, DefaultTransisitonTime);
 
 	}
 	public override void _Ready()
 	{
-		Animate(PlayerState.Idle, DefaultTransisitonTime);
+		controller = this.FindNodeInParent<ActorController>();
+		if (controller is null)
+		{
+			GD.PrintErr("No parent containing ActorController");
+		}
+		else
+		{
+			controller.ActorVelocityChanged += Controller_ActorVelocityChanged;
+		}
+		PlayerAnimator = this.FindNodeInChildren<AnimationPlayer>();
+		if (PlayerAnimator is null)
+		{
+			GD.PrintErr("No child containing AnimationPlayer");
+		}
+		else
+		{
+			AnimateActor(PlayerState.Idle, DefaultTransisitonTime);
+		}
+	}
+
+	private void Controller_ActorVelocityChanged(object sender, ActorVelocityEvent e)
+	{
+		SetMovementForAnimation(e.Velocity,e.IsOnFloor);
 	}
 
 	// Called every frame. 'delta' is the elapsed time since the previous frame.
-	public override void _Process(double delta)
-	{
-	}
+
 }

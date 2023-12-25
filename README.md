@@ -1,4 +1,4 @@
-## About
+## LONG ROAD AHEAD ! IT'S FAR FROM FINISH !
 
 Finnaly I have started my journey in <strong>Game Development</strong>.<break>
 After weeks comparing various game engines and lurking on streamers & youtubers, my love is fallin into [Godot 4.2](https://godotengine.org/ "Free & Opensource Game Engine") with C# script.

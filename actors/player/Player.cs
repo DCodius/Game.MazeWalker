@@ -14,6 +14,7 @@ public partial class Player : ActorController
 
 	protected PlayerState _currentState = PlayerState.Idle;
 	protected AnimationPlayer _anim;
+	private ViewportTexture viewPortTexture;
 
 
 
@@ -39,11 +40,16 @@ public partial class Player : ActorController
 		{
 			velocity.X = Mathf.MoveToward(Velocity.X, 0, Speed);
 		}
+		if (Mathf.Abs(Velocity.X) > 0)
+		{
+		  viewPortTexture.GetImage().FlipX();
+		}
 	}
 
 	public override void _Ready()
 	{
 		_anim = GetNode<AnimationPlayer>("Animation");
+		viewPortTexture = this.GetViewport().GetTexture();
 		base._Ready();
 	}
 

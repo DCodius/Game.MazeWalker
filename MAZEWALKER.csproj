@@ -5,4 +5,14 @@
     <TargetFramework Condition=" '$(GodotTargetPlatform)' == 'ios' ">net8.0</TargetFramework>
     <EnableDynamicLoading>true</EnableDynamicLoading>
   </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="actors\player\Player_old.cs" />
+    <Compile Remove="dumped\Player_old.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="dumped\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="CommunityToolkit.Mvvm" Version="8.2.2" />
+  </ItemGroup>
 </Project>
