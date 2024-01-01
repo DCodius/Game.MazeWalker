@@ -1,0 +1,14 @@
+{
+  "profiles": {
+	"MAZEWALKER": {
+	  "commandName": "Project"
+	},
+	"Godot": {
+	  "commandName": "Executable",
+	  "executablePath": "C:\\Programs Coding\\Godot_v4.2-stable_mono_win64\\Godot_v4.2-stable_mono_win64.exe",
+	  "commandLineArgs": "--path.--verbose",
+	  "workingDirectory": ".",
+	  "nativeDebugging": true
+	}
+  }
+}
