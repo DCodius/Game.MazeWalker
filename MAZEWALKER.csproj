@@ -1,4 +1,4 @@
-<Project Sdk="Godot.NET.Sdk/4.2.0">
+﻿<Project Sdk="Godot.NET.Sdk/4.2.0">
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <TargetFramework Condition=" '$(GodotTargetPlatform)' == 'android' ">net7.0</TargetFramework>
@@ -6,11 +6,11 @@
     <EnableDynamicLoading>true</EnableDynamicLoading>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Remove="actors\player\Player_old.cs" />
-    <Compile Remove="dumped\Player_old.cs" />
+    <Compile Remove="dumped\**" />
+    <EmbeddedResource Remove="dumped\**" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="dumped\" />
+    <Compile Remove="actors\player\Player_old.cs" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="CommunityToolkit.Mvvm" Version="8.2.2" />

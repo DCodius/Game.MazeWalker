@@ -1,4 +1,4 @@
-## LONG ROAD AHEAD ! IT'S FAR FROM FINISH !
+## LONG ROAD AHEAD ! IT'S FAR FROM FINISH ! WALKING THE MAZE !
 
 Finnaly I have started my journey in <strong>Game Development</strong>.<break>
 After weeks comparing various game engines and lurking on streamers & youtubers, my love is fallin into [Godot 4.2](https://godotengine.org/ "Free & Opensource Game Engine") with C# script.
@@ -31,16 +31,21 @@ C# is rich with mature framework,pattern and lib packages, so why not implementi
 
 - **Rules:** Next level of  maze will be unlocked after the key is acquired, player loose when killed by enemy or maze' trap .
 - **Systems:** The complex or dynamic systems that interact with the game, such as physics, combat, inventory, economy, etc.
-- **Interactions:** The ways the player can interact with the game world and its elements, such as movement, combat, dialogue, crafting, etc.
+- **Interactions:** Player movements are idle,walk,run,jump,attack. interact  object
 
 ## Learning Source
+- [Youtube - How To Use Visual Studio AND VS Code With Godot 4!](https://youtu.be/OtfxxY4AeVQ?si=k3Y0fbjMYGFvu01v)
 - [Youtube - Godot Game Development – Crash Course for Beginners ](https://youtu.be/S8lMTwSRoRg?si=TlaZsRICYSjpJ4-P "Godot Game Development – Crash Course for Beginners")
 - [Youtube - How To Make A Character MOVE in Godot (C# Tutorial)](https://www.youtube.com/watch?v=iBLJ89ZwXys "How To Make A Character MOVE in Godot (C# Tutorial)")
 - [Youtube - Use C# with Godot to make Games! | .NET Conf 2023](https://www.youtube.com/watch?v=fVkA1AHd37M&t=1142s "Use C# with Godot to make Games! | .NET Conf 2023")
 - [Youtube - How to animate Sprite Sheets in Godot using AnimationPlayer (beginner tutorial)](https://www.youtube.com/watch?v=FEwE6myyz_I "How to animate Sprite Sheets in Godot using AnimationPlayer (beginner tutorial)")
-
+- [Youtube - Sprite sheet Mastery in Godot: Learn to Handle Every Type of Sprite sheet Like Pro!](https://youtu.be/VlD7PtFIRlo?si=PLFDEP9P-EISpk8S)
+- [Youtube - Animation Tree State Machine Setup w/ Conditions & BlendSpace2D - Godot 4 Resource Gatherer Tutorial](https://youtu.be/WrMORzl3g1U?si=n5RFLN_2KY_IUyAT)
+- [Youtube - Implementing a 2D character controller [Godot 4/C# 🇬🇧 Tutorial](https://youtu.be/b7UNuZ-s_Kg?si=PVGrr4LM0PByhWCu)
+- [Godot C# Development Sample + New Rendering Demo](https://gamefromscratch.com/godot-c-development-sample-new-rendering-demo/)
 
 ## Game Resources
+- [This is Game Social Market Place with tons of freebies](https://itch.io/)
 - [Coins & Gems & Chests & More by greatdocbrown](https://greatdocbrown.itch.io/coins-gems-etc "Created by greatdocbrown")
 
 ## Nuget Packages
