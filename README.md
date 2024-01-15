@@ -7,7 +7,8 @@ C# is rich with mature framework,pattern and lib packages, so why not implementi
 ## What I have learn 
 - **Game Engine** : Why Godot ? Well it's Open Source & 100% FREE, this is so far <strong>"The Most Newbie Friendly"</strong> with intuitive  ui workflow. And after Unity decided to changes their Pricing License,  Godot is the best option for Indie GameDev for sure !
 - **Sprite/Pixel Art Tool** : Its lot of tools for Sprite Image Editor out there, but i think [aseprite](https://www.aseprite.org/). It's simple yet powerfully equiped with various Plugins.
-- **Animation** : Use AnimationPlayer with Spreadsheet (.png) containing all animation frames 
+- **Animation** : Use AnimationPlayer with Spreadsheet (.png) containing all animation frames for complex animation but start with AnimatedSprite2D 
+- **Components Base Project** : Its important for scaling and easy to maintenance 
 
 ## Game Overview
 
@@ -43,6 +44,8 @@ C# is rich with mature framework,pattern and lib packages, so why not implementi
 - [Youtube - Animation Tree State Machine Setup w/ Conditions & BlendSpace2D - Godot 4 Resource Gatherer Tutorial](https://youtu.be/WrMORzl3g1U?si=n5RFLN_2KY_IUyAT)
 - [Youtube - Implementing a 2D character controller [Godot 4/C# 🇬🇧 Tutorial](https://youtu.be/b7UNuZ-s_Kg?si=PVGrr4LM0PByhWCu)
 - [Godot C# Development Sample + New Rendering Demo](https://gamefromscratch.com/godot-c-development-sample-new-rendering-demo/)
+- [
+Firebelley Games - Using Composition to Make More Scalable Games in Godot](https://youtu.be/rCu8vQrdDDI?si=GS51fVraPUSPll_3)
 
 ## Game Resources
 - [This is Game Social Market Place with tons of freebies](https://itch.io/)
