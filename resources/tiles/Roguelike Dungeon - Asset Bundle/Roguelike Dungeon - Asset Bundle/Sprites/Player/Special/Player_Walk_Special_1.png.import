@@ -1,0 +1,34 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://b0vqxvlnn4qyk"
+path="res://.godot/imported/Player_Walk_Special_1.png-6e1f4f3e0fefb0db4c1de3d1f9f94d67.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://resources/tiles/Roguelike Dungeon - Asset Bundle/Roguelike Dungeon - Asset Bundle/Sprites/Player/Special/Player_Walk_Special_1.png"
+dest_files=["res://.godot/imported/Player_Walk_Special_1.png-6e1f4f3e0fefb0db4c1de3d1f9f94d67.ctex"]
+
+[params]
+
+compress/mode=0
+compress/high_quality=false
+compress/lossy_quality=0.7
+compress/hdr_compression=1
+compress/normal_map=0
+compress/channel_pack=0
+mipmaps/generate=false
+mipmaps/limit=-1
+roughness/mode=0
+roughness/src_normal=""
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/normal_map_invert_y=false
+process/hdr_as_srgb=false
+process/hdr_clamp_exposure=false
+process/size_limit=0
+detect_3d/compress_to=1

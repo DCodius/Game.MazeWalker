@@ -44,8 +44,8 @@ C# is rich with mature framework,pattern and lib packages, so why not implementi
 - [Youtube - Animation Tree State Machine Setup w/ Conditions & BlendSpace2D - Godot 4 Resource Gatherer Tutorial](https://youtu.be/WrMORzl3g1U?si=n5RFLN_2KY_IUyAT)
 - [Youtube - Implementing a 2D character controller Godot 4/C# 🇬🇧 Tutorial](https://youtu.be/b7UNuZ-s_Kg?si=PVGrr4LM0PByhWCu)
 - [Godot C# Development Sample + New Rendering Demo](https://gamefromscratch.com/godot-c-development-sample-new-rendering-demo/)
-- [
-Firebelley Games - Using Composition to Make More Scalable Games in Godot](https://youtu.be/rCu8vQrdDDI?si=GS51fVraPUSPll_3)
+- [Tutorial: How to use LDtk with Godot 3.5](https://youtu.be/EJym1soK18E?si=8h4lv3Yd-2bDwEal)
+- [Firebelley Games - Using Composition to Make More Scalable Games in Godot](https://youtu.be/rCu8vQrdDDI?si=GS51fVraPUSPll_3)
 
 ## Toolkits
 - [2D Level Design](https://ldtk.io/)
