@@ -39,13 +39,17 @@ C# is rich with mature framework,pattern and lib packages, so why not implementi
 - [Youtube - Godot Game Development – Crash Course for Beginners ](https://youtu.be/S8lMTwSRoRg?si=TlaZsRICYSjpJ4-P "Godot Game Development – Crash Course for Beginners")
 - [Youtube - How To Make A Character MOVE in Godot (C# Tutorial)](https://www.youtube.com/watch?v=iBLJ89ZwXys "How To Make A Character MOVE in Godot (C# Tutorial)")
 - [Youtube - Use C# with Godot to make Games! | .NET Conf 2023](https://www.youtube.com/watch?v=fVkA1AHd37M&t=1142s "Use C# with Godot to make Games! | .NET Conf 2023")
-- [Youtube - How to animate Sprite Sheets in Godot using AnimationPlayer (beginner tutorial)](https://www.youtube.com/watch?v=FEwE6myyz_I "How to animate Sprite Sheets in Godot using AnimationPlayer (beginner tutorial)")
+- [Youtube - How to animate Sprite Sheets in Godot using AnimationPlayer](https://www.youtube.com/watch?v=FEwE6myyz_I "How to animate Sprite Sheets in Godot using AnimationPlayer (beginner tutorial)")
 - [Youtube - Sprite sheet Mastery in Godot: Learn to Handle Every Type of Sprite sheet Like Pro!](https://youtu.be/VlD7PtFIRlo?si=PLFDEP9P-EISpk8S)
 - [Youtube - Animation Tree State Machine Setup w/ Conditions & BlendSpace2D - Godot 4 Resource Gatherer Tutorial](https://youtu.be/WrMORzl3g1U?si=n5RFLN_2KY_IUyAT)
-- [Youtube - Implementing a 2D character controller [Godot 4/C# 🇬🇧 Tutorial](https://youtu.be/b7UNuZ-s_Kg?si=PVGrr4LM0PByhWCu)
+- [Youtube - Implementing a 2D character controller Godot 4/C# 🇬🇧 Tutorial](https://youtu.be/b7UNuZ-s_Kg?si=PVGrr4LM0PByhWCu)
 - [Godot C# Development Sample + New Rendering Demo](https://gamefromscratch.com/godot-c-development-sample-new-rendering-demo/)
 - [
 Firebelley Games - Using Composition to Make More Scalable Games in Godot](https://youtu.be/rCu8vQrdDDI?si=GS51fVraPUSPll_3)
+
+## Toolkits
+- [2D Level Design](https://ldtk.io/)
+- [Aseprite Editor - Animated Sprite Editor & Pixel Art Tool](https://www.aseprite.org/)
 
 ## Game Resources
 - [This is Game Social Market Place with tons of freebies](https://itch.io/)
